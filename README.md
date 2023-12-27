@@ -29,11 +29,23 @@ iii) # To find the maximum marks without using builtin functions.
 
 
 
-```
+```python
+''' 
+Program to mark the maximum of marks using the list method sort
+Developed by: VIGNESH M
+RegisterNumber: 23014020
+'''
+def max_marks(marks):
+    marks.sort()
+    return marks[-1]
+    #Write your code here
+
 ## Sample Input and Output
 ![output](./img/max_marks1.jpg) 
 
 ## Output:
+![image](https://github.com/vigneshvickyu/FindMaximum/assets/151948835/cac6a5bb-4551-479d-a375-7132850b0f1e)
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
